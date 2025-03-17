@@ -168,3 +168,38 @@ Your IP address is: 42.1.87.169
 (base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
 └─$ 
 ```
+
+# Show info about `requests`
+
+```bash
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ poetry run python -m pip show requests
+Name: requests
+Version: 2.32.3
+Summary: Python HTTP for Humans.
+Home-page: https://requests.readthedocs.io
+Author: Kenneth Reitz
+Author-email: me@kennethreitz.org
+License: Apache-2.0
+Location: /home/klx/.cache/pypoetry/virtualenvs/learn-python-poetry-NMAWV853-py3.9/lib/python3.9/site-packages
+Requires: certifi, charset-normalizer, idna, urllib3
+Required-by:
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ python -m pip show requests
+Name: requests
+Version: 2.31.0
+Summary: Python HTTP for Humans.
+Home-page: https://requests.readthedocs.io
+Author: Kenneth Reitz
+Author-email: me@kennethreitz.org
+License: Apache 2.0
+Location: /home/klx/miniconda3/lib/python3.9/site-packages
+Requires: certifi, charset-normalizer, idna, urllib3
+Required-by: conda, conda_package_streaming, huggingface-hub, jupyterlab_server, localstack-core, localstack-ext, pooch, spacy, tensorflow, transformers, ultralytics, weasel, yarg, youtube-transcript-api
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ 
+
+```
+
