@@ -70,3 +70,30 @@ Do you confirm generation? (yes/no) [yes]
 └─$ 
 
 ```
+
+# Use poetry to install requests
+
+```bash
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ poetry add requests
+Creating virtualenv learn-python-poetry-NMAWV853-py3.9 in /home/klx/.cache/pypoetry/virtualenvs
+Using version ^2.32.3 for requests
+
+Updating dependencies
+Resolving dependencies... (1.7s)
+
+Package operations: 5 installs, 0 updates, 0 removals
+
+  - Installing certifi (2025.1.31)
+  - Installing charset-normalizer (3.4.1)
+  - Installing idna (3.10)
+  - Installing urllib3 (2.3.0)
+  - Installing requests (2.32.3)
+
+Writing lock file
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ 
+
+```
+
