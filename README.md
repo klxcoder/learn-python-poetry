@@ -157,3 +157,14 @@ Python 3.9.18
 └─$ 
 
 ```
+
+# example.py
+
+```bash
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ poetry run python example.py
+Your IP address is: 42.1.87.169
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ 
+```
