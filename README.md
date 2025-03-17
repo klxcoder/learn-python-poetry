@@ -141,3 +141,19 @@ Note that the env activate command is not a direct replacement for shell command
 (base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
 └─$
 ```
+
+# Try "poetry run python -V"
+
+```bash
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ python -V                          
+Python 3.9.18
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ poetry run python -V
+Python 3.9.18
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ 
+
+```
