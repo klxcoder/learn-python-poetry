@@ -314,3 +314,46 @@ Executable: /home/klx/miniconda3/bin/python3.9
 (base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
 └─$
 ```
+
+# poetry env remove python
+
+```bash
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ poetry env list                
+learn-python-poetry-NMAWV853-py3.9 (Activated)
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ poetry env remove python
+Deleted virtualenv: /home/klx/.cache/pypoetry/virtualenvs/learn-python-poetry-NMAWV853-py3.9
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ poetry env list
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ poetry run python example.py
+Creating virtualenv learn-python-poetry-NMAWV853-py3.9 in /home/klx/.cache/pypoetry/virtualenvs
+Traceback (most recent call last):
+  File "/home/klx/learn-python-poetry/example.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ poetry env list             
+learn-python-poetry-NMAWV853-py3.9 (Activated)
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ poetry env remove python    
+Deleted virtualenv: /home/klx/.cache/pypoetry/virtualenvs/learn-python-poetry-NMAWV853-py3.9
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ poetry env list         
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ cd ..                 
+
+(base) ┌──(klx㉿kali)-[~]
+└─$ rm -rf learn-python-poetry
+
+(base) ┌──(klx㉿kali)-[~]
+└─$ 
+```
