@@ -264,3 +264,25 @@ learn-python-poetry-NMAWV853-py3.9 (Activated)
 (base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
 
 ```
+
+# poetry run pytest
+
+```bash
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ poetry run pytest
+=============================================================================================== test session starts ===============================================================================================
+platform linux -- Python 3.9.18, pytest-8.3.5, pluggy-1.5.0
+rootdir: /home/klx/learn-python-poetry
+configfile: pyproject.toml
+collected 2 items
+
+
+test_calculator.py ..
+
+
+================================================================================================ 2 passed in 0.01s ================================================================================================
+
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ 
+```
