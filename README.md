@@ -253,3 +253,14 @@ BrokenPipeError: [Errno 32] Broken pipe
 └─$
 
 ```
+
+# poetry env list
+
+```bash
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ poetry env list
+learn-python-poetry-NMAWV853-py3.9 (Activated)
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+
+```
