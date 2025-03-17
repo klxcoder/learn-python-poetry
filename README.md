@@ -286,3 +286,31 @@ test_calculator.py ..
 (base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
 └─$ 
 ```
+
+# poetry env info
+
+```bash
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ poetry env list  
+learn-python-poetry-NMAWV853-py3.9 (Activated)
+                                                                                                                                                                                                                   
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ poetry env info
+
+Virtualenv
+Python:         3.9.18
+Implementation: CPython
+Path:           /home/klx/.cache/pypoetry/virtualenvs/learn-python-poetry-NMAWV853-py3.9
+Executable:     /home/klx/.cache/pypoetry/virtualenvs/learn-python-poetry-NMAWV853-py3.9/bin/python
+Valid:          True
+
+Base
+Platform:   linux
+OS:         posix
+Python:     3.9.18
+Path:       /home/klx/miniconda3
+Executable: /home/klx/miniconda3/bin/python3.9
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$
+```
