@@ -97,3 +97,28 @@ Writing lock file
 
 ```
 
+# Use poetry to install dev dependency pytest
+
+```bash
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ poetry add --dev pytest
+Using version ^8.3.5 for pytest
+
+Updating dependencies
+Resolving dependencies... (2.6s)
+
+Package operations: 6 installs, 0 updates, 0 removals
+
+  - Installing exceptiongroup (1.2.2)
+  - Installing iniconfig (2.0.0)
+  - Installing packaging (24.2)
+  - Installing pluggy (1.5.0)
+  - Installing tomli (2.2.1)
+  - Installing pytest (8.3.5)
+
+Writing lock file
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ 
+
+```
