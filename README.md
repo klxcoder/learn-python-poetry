@@ -203,3 +203,53 @@ Required-by: conda, conda_package_streaming, huggingface-hub, jupyterlab_server,
 
 ```
 
+# pip list
+
+```bash
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ poetry run python -m pip list         
+Package            Version
+------------------ ---------
+certifi            2025.1.31
+charset-normalizer 3.4.1
+exceptiongroup     1.2.2
+idna               3.10
+iniconfig          2.0.0
+packaging          24.2
+pip                25.0.1
+pluggy             1.5.0
+pytest             8.3.5
+requests           2.32.3
+tomli              2.2.1
+urllib3            2.3.0
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$ python -m pip list | head -n 20
+Package                      Version
+---------------------------- --------------------
+absl-py                      2.1.0
+aiohttp                      3.9.5
+aiosignal                    1.3.1
+annotated-types              0.7.0
+anyascii                     0.3.2
+anyio                        4.2.0
+argon2-cffi                  21.3.0
+argon2-cffi-bindings         21.2.0
+asttokens                    2.0.5
+astunparse                   1.6.3
+async-lru                    2.0.4
+async-timeout                4.0.3
+attrs                        23.1.0
+audioread                    3.0.1
+Babel                        2.11.0
+backcall                     0.2.0
+bangla                       0.0.2
+beautifulsoup4               4.12.2
+ERROR: Pipe to stdout was broken
+Exception ignored in: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='utf-8'>
+BrokenPipeError: [Errno 32] Broken pipe
+
+(base) ┌──(klx㉿kali)-[~/learn-python-poetry] (main)
+└─$
+
+```
